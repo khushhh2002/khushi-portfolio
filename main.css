@@ -1,0 +1,142 @@
+/* Global Styles */
+/**{
+  color:#bdbddd;
+  background-color: #23283e;
+}*/
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #23283e;
+  color:#bdbddd;
+}
+
+header {
+  font-style: "poppins",sans-serif;
+
+  background-color: #23283e ;
+  padding: 30px 30px;
+  color:#bdbddd;
+}
+/*
+a {
+  color: wheat;
+}*/
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+ 
+}
+
+nav ul li a:hover {
+  color: #ab9cb3;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: left;
+  font-family:  'Arial', sans-serif;
+}
+
+.dark-section {
+  background-color: #23283e;
+  color: #bdbddd;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  animation: fadeInDown 1.5s ease-in-out;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  animation: fadeInUp 2s ease-in-out;
+}
+
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+#skills p{
+  
+  border:2px  rgb(231, 208, 208);
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px solid;
+  margin: 10px;
+  
+  color: #bdbddd;
+  box-shadow: 1px 1px 4px rgb(23, 11, 51);
+  flex-direction: row;
+  justify-content: center;
+}
+/*#skills p:hover{
+  background-color: rgb(197, 192, 192);
+
+}*/
+
+#education p{
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 5px;
+}
+#education h3{
+  font-weight: 900;
+}
+  
+#contact a{
+  color:#bdbddd;
+}
+section button{
+  color: #bdbddd;
+  box-shadow: #ab9cb3;
+  font-size: large;
+  font-style: italic;
+  background-color: #23283e;
+}
+
+/* Animations */
+
+@keyframes fadeInDown {
+  0% {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+ 
